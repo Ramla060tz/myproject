@@ -1,0 +1,92 @@
+.fisherman-table-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(226, 7, 7, 0.819);
+}
+
+.fisherman-table-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.error-message {
+    color: red;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.add-fisherman {
+    display: block;
+    margin: 0 auto 20px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.add-fisherman:hover {
+    background-color: #45a049;
+}
+
+.fisherman-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.fisherman-table th,
+.fisherman-table td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #c71d64;
+}
+
+.fisherman-table th {
+    background-color: #1c1ccc;
+}
+
+.fisherman-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.fisherman-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+.fisherman-table .small-col {
+    width: 50px;
+    text-align: center;
+}
+
+.fisherman-table button {
+    padding: 6px 12px;
+    margin-right: 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.fisherman-table button:first-of-type {
+    background-color: #2196F3;
+    color: rgb(217, 31, 112);
+}
+
+.fisherman-table button:first-of-type:hover {
+    background-color: #0b7dda;
+}
+
+.fisherman-table button:last-of-type {
+    background-color: #f44336;
+    color: white;
+}
+
+.fisherman-table button:last-of-type:hover {
+    background-color: #da190b;
+}
